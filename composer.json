@@ -1,0 +1,19 @@
+{
+    "name": "rizkinandam/belajar-php-composer-hello",
+    "description": "Library Composer Hello",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "RizkiNandaMustaqim\\Belajar\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rizki Nanda Mustaqim",
+            "email": "rizki.nanda.m94@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    }
+}
